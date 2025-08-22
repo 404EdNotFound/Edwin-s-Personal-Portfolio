@@ -1,0 +1,75 @@
+body {
+    background-color: cyan;
+    color: brown;
+}
+
+header {
+    background-color: yellow;
+    box-shadow: 0 0 20px 0 rgb(54, 3, 3);
+    padding: 10px 10px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border: 10px solid green;
+}
+
+h2 {
+    width: fit-content;
+    padding: 0px 2%;
+    border: 5px solid #ff0000;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    background-color: indigo;
+    color: cyan;
+    position: relative;
+}
+
+section {
+    border: 10px solid black;
+    margin: auto;
+    width: 100%;
+}
+
+a {
+    text-align: center;
+    position: relative;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+p, pre, ul, a, label{
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+}
+
+img {
+    transform: scale(25px, 25px);
+    width: 30%;
+}
+
+#row-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#piDigits {
+    display: flex;
+    text-align: center;
+}
+
+.big {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+video {
+    width:25%;
+}
